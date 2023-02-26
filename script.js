@@ -24,12 +24,12 @@ for (let el of scrollBtn) {
 
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  formBody.classList.add("dn");
+  formBody.classList.add("dn-form");
   successSubmit.hidden = false;
 
   setTimeout(() => {
     for (let el of openModal) el.classList.remove("open");
-    formBody.classList.remove("dn");
+    formBody.classList.remove("dn-form");
     successSubmit.hidden = true;
   }, 1000);
 });
