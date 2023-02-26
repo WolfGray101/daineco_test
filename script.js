@@ -10,8 +10,18 @@ const errorMsg = document.querySelector(".privacy");
 const successSubmit = document.querySelector(".success-submit");
 const formBody = document.querySelector(".form-body");
 const scrollBtn = document.querySelectorAll("input");
+const header = document.querySelector('.scroll-bg')
 
 const screenHeight = window.screen.height;
+
+window.onscroll = ()=> scrollFunction()
+
+const scrollFunction = () => {
+  document.body.scrollTop > 10 || document.documentElement.scrollTop > 10 ? 
+   header.classList.add('header-background') :
+   header.classList.remove('header-background') 
+  
+}
 
 for (let el of scrollBtn) {
   el.addEventListener("change", () => {
