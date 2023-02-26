@@ -1030,6 +1030,10 @@ form button {
 
 }
 
+ 
+.dn {
+  display: none;
+}
 .disabled {
   background-color: #3f3e3e;
   opacity: 0.8;
