@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motor Lab</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="modal-container modal-cb">
+      <div class="modal">
+        <div class="success-submit" hidden>Успешно отправлено</div>
+        <div class="form-body">
+          <button class="close-modal close">X</button>
+          <h2>Быстро оставить заявку</h2>
+          <h3>
+            Введите номер — позвоним вам в течение 5-10 минут в рабочее время
+          </h3>
+          <form action="">
+            <label for="phone-num">
+              Введите ваш номер телефона
+              <input
+                id="phone-num"
+                type="text"
+                placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _"
+              />
+            </label>
+
+            <button class="btn-submit-form" type="submit">
+              Перезвоните мне
+            </button>
+            <span class="privacy" hidden
+            >Необходимо принять соглашение</span
+          >
+            <label class="checkbox">
+              <input class="form-checkbox"type="checkbox" checked />
+              <span
+                >Нажимая кнопку вы соглашаетесь с условиями Политики
+                конфиденциальности</span
+              >
+             
+            </label>
+           
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container modal-menu">
+      <div class="modal-menu-item">
+        <header class="header open-menu">
+          <a href="/"> <div class="header__logo"></div></a>
+
+          <div class="header__contact-blocks ">
+            <span class="header__contact-block--mode open-menu"
+              >Звоните Пн-Сб 10.00 - 21.00</span
+            >
+            <a
+              class="header__contact-block header__contact-block__phone open-menu"
+              href="tel:+79251033330"
+            >
+              +7 (925) 103 33 30
+            </a>
+            <span
+              class="header__contact-block header__contact-block__callback hover-bottom-effect cb-open open-menu"
+              >Заказать звонок</span
+            >
+          </div>
+          <div class="burger-menu burger-menu-close">
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+          </div>
+        </header>
+        <div class="menu-services">
+          <ul class="services-items">
+            <li class="service-item"> УСЛУГИ
+              <ul class="services-items services-item__content">
+                <li class="service-item__content-item">
+                  Ремонт двигателей KIA
+                </li>
+                <li class="service-item__content-item">
+                  Ремонт двигателей HYUNDAI
+                </li>
+                </ul>
+            </li>
+            <li class="service-item">МОДЕЛИ</li>
+            <li class="service-item">ОТЗЫВЫ</li>
+            <li class="service-item">СТОИМОСТЬ</li>
+            <li class="service-item">ПРИМЕРЫ </li>
+            <li class="service-item">СТАТЬИ</li>
+            <li class="service-item">О КОМПАНИИ</li>
+            <li class="service-item">КОНТАКТЫ</li>
+          </ul>
+        </div>
+
+        <div class="header__description header__address menu-open">
+          <img src="./img/map2.svg" alt="" class="map-point" />
+          <p>Адрес автоцентра:<br>
+          Москва, <strong>Шоссейный проезд, с4 а/2</strong></p>
+        </div>
+        <div class="header__description header__price menu-open">
+          <p>
+            <a class="hover-bottom-effect">
+              Рассчитать стоимость ремонта <strong>за 45 сек</strong>
+            </a>
+          </p>
+        </div>
+        <div class="footer-modal-menu">
+          <div class="icon"></div>
+          <div class="content-footer">
+          <p>Есть Вопрос?  </p>
+          <p><strong>Задайте его нашему мастеру онлайн</strong></p>
+        <div class="header__social-group menu-open">
+          <a class="wa"></a>
+          <a class="tg"></a>
+        </div>
+      </div></div>
+      </div>
+    </div>
+
+    <main class="main">
+      <!-- <button class="btn-scroll">scroll</button> -->
+      <aside class="scroll">
+        <div class="scroll__title"><span>SCROLL DOWN</span></div>
+        <div class="scroll__divider"></div>
+        <div class="scroll__interactive-block">
+          <label class="switch">
+            <input class="scroll-input" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </aside>
+
+      <section class="start-screen">
+        <header class="header">
+          <a href="/">
+            <div class="header__logo">
+              <div class="header__description dn">
+                Ремонтируем двигатели <br />
+                Hyundai и Kia с 2012 года
+              </div>
+            </div></a
+          >
+          <div class="header__description header__address dn">
+            <img src="./img/map2.svg" alt="" class="map-point" />
+            Адрес автоцентра: Москва, <br />
+            Шоссейный проезд, с4 а/2
+          </div>
+          <div class="header__description header__map dn">
+            <p><a class="hover-bottom-effect">Смотреть на карте</a></p>
+            <div class="mini-map">
+              <a
+                href="https://yandex.by/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0px;
+                "
+                >Москва</a
+              >
+              <a
+                href="https://yandex.by/maps/213/moscow/house/shosseyny_proyezd_s4a_1/Z04YcQZgTkUGQFtvfXtxd3pmZA==/?from=tabbar&ll=37.710701%2C55.706649&mode=search&sctx=ZAAAAAgAEAAaKAoSCS9P54pSUjxAEZzc71AUDEtAEhIJDoelgR%2FVwD8Rv2GiQQqeqj8iBgABAgMEBSgKOABAsssBSAFiMmNvbGxlY3Rpb25zX3JhbmtpbmdfbW9kZWw9Y29sbGVjdGlvbnNfcmVsZXZfd19kc3NtYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTAwMDAwYiBjb2xsZWN0aW9uc19yZXR1cm5fYnlfZ2VvaWQ9dHJ1ZWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9NaXhFYWNoTlBvc2l0aW9uPTEwMDUwMGI3cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9GaXJzdFBvc2l0aW9uVG9NaXg9NGIncmVhcnI9c2NoZW1lX0xvY2FsL0dlby9QcmljZXMvRW5hYmxlZD0xYjJyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0NvbGxlY3Rpb25zL0VuYWJsZWRNaXg9dHJ1ZWoCdWGdAc3MTD2gAQCoAQC9AX9mck%2FCARkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6gEA8gEA%2BAEAggIj0YjQvtGB0YHQtdC50L3Ri9C5INC%2F0YDQvtC10LfQtCDRgTSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=37.710701%2C55.706649&source=serp_navig&sspn=0.014797%2C0.004620&text=%D1%88%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%20%D1%814&utm_medium=mapframe&utm_source=maps&z=16.59"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 14px;
+                "
+              >
+                Шоссейный проезд, с4А/1 — Яндекс Карты</a
+              >
+              <iframe
+                src="https://yandex.by/map-widget/v1/?from=tabbar&ll=37.710701%2C55.706649&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjY4MDAxMBJE0KDQvtGB0YHQuNGPLCDQnNC%2B0YHQutCy0LAsINCo0L7RgdGB0LXQudC90YvQuSDQv9GA0L7QtdC30LQsINGBNNCQLzEiCg3B1xZCFZzTXkI%3D&sctx=ZAAAAAgAEAAaKAoSCS9P54pSUjxAEZzc71AUDEtAEhIJDoelgR%2FVwD8Rv2GiQQqeqj8iBgABAgMEBSgKOABAsssBSAFiMmNvbGxlY3Rpb25zX3JhbmtpbmdfbW9kZWw9Y29sbGVjdGlvbnNfcmVsZXZfd19kc3NtYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTAwMDAwYiBjb2xsZWN0aW9uc19yZXR1cm5fYnlfZ2VvaWQ9dHJ1ZWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9NaXhFYWNoTlBvc2l0aW9uPTEwMDUwMGI3cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9GaXJzdFBvc2l0aW9uVG9NaXg9NGIncmVhcnI9c2NoZW1lX0xvY2FsL0dlby9QcmljZXMvRW5hYmxlZD0xYjJyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0NvbGxlY3Rpb25zL0VuYWJsZWRNaXg9dHJ1ZWoCdWGdAc3MTD2gAQCoAQC9AX9mck%2FCARkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6gEA8gEA%2BAEAggIj0YjQvtGB0YHQtdC50L3Ri9C5INC%2F0YDQvtC10LfQtCDRgTSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=37.710701%2C55.706649&source=serp_navig&sspn=0.014797%2C0.004620&text=%D1%88%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%20%D1%814&z=16.59"
+                width="300"
+                height="300"
+                frameborder="1"
+                allowfullscreen="true"
+                style="position: relative"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="header__description header__price dn">
+            <p>
+              <a class="hover-bottom-effect">
+                Рассчитать стоимость <br />ремонта за 45 сек
+              </a>
+            </p>
+          </div>
+
+          <div class="header__social-group dn">
+            <a class="wa"></a>
+            <a class="tg"></a>
+            <a class="vb"></a>
+          </div>
+          <div class="header__contact-blocks">
+            <span class="header__contact-block--mode"
+              >Звоните Пн-Сб 10.00 - 21.00</span
+            >
+            <a
+              class="header__contact-block header__contact-block__phone"
+              href="tel:+79251033330"
+            >
+              +7 (925) 103 33 30
+            </a>
+            <span
+              class="header__contact-block header__contact-block__callback hover-bottom-effect cb-open"
+              >Заказать звонок</span
+            >
+          </div>
+          <div class="burger-menu burger-menu-open">
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+            <div class="burger-item"></div>
+          </div>
+        </header>
+        <div class="divider">
+          <div class="divider-item"></div>
+        </div>
+        <nav class="menu">
+          <a href="#"> ГЛАВНАЯ</a>
+          <a href="#">УСЛУГИ</a>
+          <a href="#">МОДЕЛИ ДВИГАТЕЛЕЙ</a>
+          <a href="#">ОТЗЫВЫ</a>
+          <a href="#">ПРИМЕРЫ РАБОТ</a>
+          <a href="#">ПОЛЕЗНЫЕ СТАТЬИ</a>
+          <a href="#">О КОМПАНИИ</a>
+          <a href="#">КОНТАКТЫ</a>
+        </nav>
+        <div class="section-body__start-screen">
+          <div class="section-body">
+            <h1>
+              Профессиональный
+              <strong class="section-body_h1-strong">ремонт двигателей</strong>
+              HYUNDAI и KIA
+              <strong class="section-body_h1-strong">
+                с гарантией 1 год
+              </strong>
+              за 4-7 дней
+            </h1>
+            <h3>в специализированном автосервисе полного цикла</h3>
+            <div class="section-body__btn-group">
+              <button class="section-body__btn btn-start cb-open">
+                Начать расчет стоимости <br />ремонта вашего двигателя
+              </button>
+              <button class="section-body__btn btn-wa cb-open">
+                Узнайте стоимость по WhatsApp
+              </button>
+            </div>
+          </div>
+          <div class="section-body__info">
+            <div class="info-item">
+              <strong> Без предоплаты. </strong>Оплата после ремонта
+            </div>
+            <div class="info-item">
+              <strong> Работаем официально </strong>с оформлением заказ-нарядов
+              и чеков
+            </div>
+            <div class="info-item"><strong>Оригинальные запчасти</strong></div>
+            <div class="info-item">
+              <strong>Лучшие цены на рынке</strong> благодаря прямым поставкам
+              запчастей и собственному цеху механической обработки
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <div class="mini-map">
+      <a
+        href="https://yandex.by/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+        style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+        >Москва</a
+      ><a
+        href="https://yandex.by/maps/213/moscow/house/shosseyny_proyezd_s4a_1/Z04YcQZgTkUGQFtvfXtxd3pmZA==/?from=tabbar&ll=37.710701%2C55.706649&mode=search&sctx=ZAAAAAgAEAAaKAoSCS9P54pSUjxAEZzc71AUDEtAEhIJDoelgR%2FVwD8Rv2GiQQqeqj8iBgABAgMEBSgKOABAsssBSAFiMmNvbGxlY3Rpb25zX3JhbmtpbmdfbW9kZWw9Y29sbGVjdGlvbnNfcmVsZXZfd19kc3NtYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTAwMDAwYiBjb2xsZWN0aW9uc19yZXR1cm5fYnlfZ2VvaWQ9dHJ1ZWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9NaXhFYWNoTlBvc2l0aW9uPTEwMDUwMGI3cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9GaXJzdFBvc2l0aW9uVG9NaXg9NGIncmVhcnI9c2NoZW1lX0xvY2FsL0dlby9QcmljZXMvRW5hYmxlZD0xYjJyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0NvbGxlY3Rpb25zL0VuYWJsZWRNaXg9dHJ1ZWoCdWGdAc3MTD2gAQCoAQC9AX9mck%2FCARkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6gEA8gEA%2BAEAggIj0YjQvtGB0YHQtdC50L3Ri9C5INC%2F0YDQvtC10LfQtCDRgTSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=37.710701%2C55.706649&source=serp_navig&sspn=0.014797%2C0.004620&text=%D1%88%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%20%D1%814&utm_medium=mapframe&utm_source=maps&z=16.59"
+        style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+        >Шоссейный проезд, с4А/1 — Яндекс Карты</a
+      ><iframe
+        src="https://yandex.by/map-widget/v1/?from=tabbar&ll=37.710701%2C55.706649&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjY4MDAxMBJE0KDQvtGB0YHQuNGPLCDQnNC%2B0YHQutCy0LAsINCo0L7RgdGB0LXQudC90YvQuSDQv9GA0L7QtdC30LQsINGBNNCQLzEiCg3B1xZCFZzTXkI%3D&sctx=ZAAAAAgAEAAaKAoSCS9P54pSUjxAEZzc71AUDEtAEhIJDoelgR%2FVwD8Rv2GiQQqeqj8iBgABAgMEBSgKOABAsssBSAFiMmNvbGxlY3Rpb25zX3JhbmtpbmdfbW9kZWw9Y29sbGVjdGlvbnNfcmVsZXZfd19kc3NtYiVjb2xsZWN0aW9uc19yZWxldl90aHJlc2hvbGQ9MTAwNTAwMDAwYiBjb2xsZWN0aW9uc19yZXR1cm5fYnlfZ2VvaWQ9dHJ1ZWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9NaXhFYWNoTlBvc2l0aW9uPTEwMDUwMGI3cmVhcnI9c2NoZW1lX0xvY2FsL0dlby9Db2xsZWN0aW9ucy9GaXJzdFBvc2l0aW9uVG9NaXg9NGIncmVhcnI9c2NoZW1lX0xvY2FsL0dlby9QcmljZXMvRW5hYmxlZD0xYjJyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0NvbGxlY3Rpb25zL0VuYWJsZWRNaXg9dHJ1ZWoCdWGdAc3MTD2gAQCoAQC9AX9mck%2FCARkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6gEA8gEA%2BAEAggIj0YjQvtGB0YHQtdC50L3Ri9C5INC%2F0YDQvtC10LfQtCDRgTSKAgCSAgCaAgxkZXNrdG9wLW1hcHM%3D&sll=37.710701%2C55.706649&source=serp_navig&sspn=0.014797%2C0.004620&text=%D1%88%D0%BE%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%20%D1%814&z=16.59"
+        width="560"
+        height="400"
+        frameborder="1"
+        allowfullscreen="true"
+        style="position: relative"
+      ></iframe>
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
